@@ -1,22 +1,45 @@
-/* line 3, ../sass/style.scss */
+/* line 4, ../sass/style.scss */
 body {
   background: url(../images/bg.png) repeat center center transparent;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 #header {
   margin: 0px 0 20px 0px;
 }
-/* line 9, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 #header #name-and-slogan {
   padding: 20px 0 20px 30px;
 }
-/* line 11, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 #header #name-and-slogan #site-name {
   font-size: 30px;
 }
-/* line 14, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 #header #name-and-slogan #site-slogan {
   font-size: 20px;
   font-weight: lighter;
+}
+
+/* line 22, ../sass/style.scss */
+.navbar-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  *zoom: 1;
+}
+/* line 15, ../sass/_mixins.scss */
+.navbar-inner:before, .navbar-inner:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../sass/_mixins.scss */
+.navbar-inner:after {
+  clear: both;
 }

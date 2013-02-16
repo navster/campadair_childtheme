@@ -1,3 +1,4 @@
+@import "variables";
 @import "mixins";
 
 body {
@@ -16,4 +17,12 @@ body {
 			font-weight: lighter;
 		}
 	}
+}
+
+.navbar-inner {
+	padding-left:  20px;
+	padding-right: 20px;
+	@include border-radius($baseBorderRadius);
+	@include box-shadow(0 1px 4px rgba(0,0,0,.065));
+	@include clearfix();
 }
