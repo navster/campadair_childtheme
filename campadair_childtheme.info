@@ -1,6 +1,6 @@
-name = Open Framework Subtheme
+name = Camp Adair Theme
 base theme = open_framework
-description = Tableless, multi-column subtheme provided by <a href="http://webservices.stanford.edu">Stanford Web Services</a> as a subtheme of the <a href="http://openframework.stanford.edu">Open Framework theme</a>.
+description = Subtheme of the <a href="http://openframework.stanford.edu">Open Framework theme</a> for YMCA NZ Camp adair.
 core = 7.x
 version = 1.0
 
