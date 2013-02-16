@@ -47,7 +47,7 @@
 <?php if ($main_menu): ?>
 <div id="main-menu" class="clearfix">
   <div class="container">
-    <div class="navbar navbar-static-top">
+    <div class="navbar">
       <div class="navbar-inner">
         <?php if ($page['search_box']): ?>
         <div id="nav-search"> <?php print render($page['search_box']); ?> </div>
