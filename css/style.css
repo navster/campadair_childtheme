@@ -1,4 +1,9 @@
-/* line 1, ../sass/style.scss */
+/* line 3, ../sass/style.scss */
 body {
   background: url(../images/bg.png) repeat center center transparent;
+}
+
+/* line 7, ../sass/style.scss */
+#header {
+  background: white;
 }

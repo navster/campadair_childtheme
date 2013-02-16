@@ -1,3 +1,10 @@
+@import "mixins";
+
 body {
 	background: url(../images/bg.png) repeat center center transparent;
+}
+
+#header {
+	background: white;
+
 }
