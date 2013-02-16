@@ -7,4 +7,7 @@ body {
 #header {
   margin: 0px 0 20px 0px;
   background: white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
 }
