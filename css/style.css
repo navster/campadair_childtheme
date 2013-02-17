@@ -1,28 +1,33 @@
 /* line 4, ../sass/style.scss */
 body {
-  background: url(../images/bg.png) repeat center center transparent;
+  /*background: url(../images/bg.png) repeat center center transparent;*/
+  background: #f5f6f7;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 #header {
   margin: 0px 0 20px 0px;
 }
-/* line 10, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 #header #name-and-slogan {
   padding: 20px 0 20px 30px;
 }
-/* line 12, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 #header #name-and-slogan #site-name {
   font-size: 30px;
 }
-/* line 15, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 #header #name-and-slogan #site-slogan {
   font-size: 20px;
   font-weight: lighter;
 }
 
-/* line 22, ../sass/style.scss */
-.navbar-inner {
+/* line 23, ../sass/style.scss */
+.navbar {
+  margin-bottom: 20px;
+}
+/* line 25, ../sass/style.scss */
+.navbar .navbar-inner {
   padding-left: 20px;
   padding-right: 20px;
   -webkit-border-radius: 4px;
@@ -34,12 +39,28 @@ body {
   *zoom: 1;
 }
 /* line 15, ../sass/_mixins.scss */
-.navbar-inner:before, .navbar-inner:after {
+.navbar .navbar-inner:before, .navbar .navbar-inner:after {
   display: table;
   content: "";
   line-height: 0;
 }
 /* line 22, ../sass/_mixins.scss */
-.navbar-inner:after {
+.navbar .navbar-inner:after {
   clear: both;
+}
+
+/* line 34, ../sass/style.scss */
+.breadcrumb {
+  margin: 0px;
+  background-color: none;
+}
+
+/* line 39, ../sass/style.scss */
+.article {
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #e4e4e4;
+  border-bottom: 1px solid #c9c9c9;
+  position: relative;
+  line-height: 20px;
 }

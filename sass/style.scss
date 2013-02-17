@@ -2,7 +2,8 @@
 @import "mixins";
 
 body {
-	background: url(../images/bg.png) repeat center center transparent;
+	/*background: url(../images/bg.png) repeat center center transparent;*/
+	background: #f5f6f7;
 }
 
 #header {
@@ -19,10 +20,27 @@ body {
 	}
 }
 
-.navbar-inner {
-	padding-left:  20px;
-	padding-right: 20px;
-	@include border-radius($baseBorderRadius);
-	@include box-shadow(0 1px 4px rgba(0,0,0,.065));
-	@include clearfix();
+.navbar {
+	margin-bottom: 20px;
+	.navbar-inner {
+		padding-left:  20px;
+		padding-right: 20px;
+		@include border-radius($baseBorderRadius);
+		@include box-shadow(0 1px 4px rgba(0,0,0,.065));
+		@include clearfix();
+	}
+}
+
+.breadcrumb {
+	margin: 0px;
+	background-color: none;
+}
+
+.article {
+	background: #fff;
+	padding: 30px;
+	border: 1px solid #e4e4e4;
+	border-bottom: 1px solid #c9c9c9;
+	position: relative;
+	line-height: 20px;
 }
